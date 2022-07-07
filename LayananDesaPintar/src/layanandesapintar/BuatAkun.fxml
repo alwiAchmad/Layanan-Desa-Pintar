@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane id="AnchorPane" prefHeight="449.0" prefWidth="710.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/18">
+   <children>
+      <TextField layoutX="160.0" layoutY="78.0" prefHeight="26.0" prefWidth="224.0" />
+      <Label layoutX="163.0" layoutY="52.0" text="Nama" />
+      <TextField layoutX="160.0" layoutY="141.0" prefHeight="26.0" prefWidth="224.0" />
+      <Label layoutX="160.0" layoutY="115.0" text="Email" />
+      <TextField layoutX="160.0" layoutY="200.0" prefHeight="26.0" prefWidth="224.0" />
+      <Label layoutX="169.0" layoutY="173.0" text="NIK" />
+      <PasswordField layoutX="160.0" layoutY="266.0" prefHeight="26.0" prefWidth="224.0" />
+      <Label layoutX="160.0" layoutY="240.0" text="Kata sandi" />
+      <PasswordField layoutX="160.0" layoutY="331.0" prefHeight="26.0" prefWidth="224.0" />
+      <Label layoutX="160.0" layoutY="305.0" text="Ulangi kata sandi" />
+      <Button layoutX="319.0" layoutY="377.0" mnemonicParsing="false" text="Buat Akun" />
+   </children>
+</AnchorPane>
