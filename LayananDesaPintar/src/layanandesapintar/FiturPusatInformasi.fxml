@@ -9,10 +9,9 @@
 <?import javafx.scene.layout.Pane?>
 <?import javafx.scene.text.Font?>
 
-
-<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/18">
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1">
    <children>
-      <Pane layoutY="-9.0" prefHeight="88.0" prefWidth="600.0" style="-fx-background-color: yellow;">
+      <Pane layoutY="-17.0" prefHeight="88.0" prefWidth="600.0" style="-fx-background-color: #73f582; -fx-background-radius: 20;">
          <children>
             <Label layoutX="14.0" layoutY="38.0" text="Pusat Infromasi">
                <font>
@@ -29,6 +28,6 @@
         </columns>
       </TableView>
       <ScrollBar layoutX="581.0" layoutY="151.0" orientation="VERTICAL" prefHeight="250.0" prefWidth="14.0" />
-      <Button layoutX="453.0" layoutY="108.0" mnemonicParsing="false" text="Masukan Informasi" />
+      <Button layoutX="464.0" layoutY="98.0" mnemonicParsing="false" text="Masukan Informasi" />
    </children>
 </AnchorPane>

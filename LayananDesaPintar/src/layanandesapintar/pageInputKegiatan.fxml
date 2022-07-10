@@ -2,21 +2,52 @@
 
 <?import javafx.scene.control.Button?>
 <?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.DatePicker?>
 <?import javafx.scene.control.Label?>
 <?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
 
-
-<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/18">
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1">
    <children>
+      <Pane layoutY="-10.0" prefHeight="107.0" prefWidth="602.0" style="-fx-background-color: #73f582; -fx-background-radius: 20;">
+         <children>
+            <Line endX="498.99993896484375" endY="-2.86102294921875E-6" layoutX="101.0" layoutY="14.0" startX="-100.0" stroke="#73f582" strokeWidth="8.0" />
+            <Label layoutX="171.0" layoutY="38.0" text="Form Kegiatan desa&#10;">
+               <font>
+                  <Font name="SansSerif Bold" size="27.0" />
+               </font>
+            </Label>
+         </children>
+      </Pane>
       <TextField layoutX="100.0" layoutY="163.0" prefHeight="26.0" prefWidth="229.0" />
-      <Label layoutX="104.0" layoutY="136.0" text="Nama Kegiatan" />
+      <Label layoutX="101.0" layoutY="145.0" text="Nama Kegiatan" />
       <TextField layoutX="351.0" layoutY="221.0" prefHeight="26.0" prefWidth="149.0" />
-      <ChoiceBox layoutX="100.0" layoutY="278.0" prefWidth="150.0" />
-      <TextField layoutX="101.0" layoutY="221.0" prefHeight="26.0" prefWidth="230.0" />
+      <ChoiceBox layoutX="105.0" layoutY="331.0" prefWidth="150.0" />
       <Label layoutX="104.0" layoutY="203.0" text="Hari / Tanggal" />
       <Label layoutX="351.0" layoutY="203.0" text="Waktu" />
-      <Label layoutX="119.0" layoutY="282.0" text="Cakupan Kegiatan" />
-      <Button layoutX="386.0" layoutY="322.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="109.0" text="Buat Kegiatan" />
+      <Label layoutX="110.0" layoutY="313.0" text="Tingkat" />
+      <Button layoutX="385.0" layoutY="348.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="109.0" text="Buat Kegiatan" />
+      <ImageView accessibleRole="BUTTON" fitHeight="26.0" fitWidth="26.0" layoutX="14.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../../expo/image/Back%20Icon.png" />
+         </image>
+      </ImageView>
+      <DatePicker layoutX="100.0" layoutY="221.0" prefHeight="26.0" prefWidth="230.0" />
+      <TextField layoutX="99.0" layoutY="279.0" prefHeight="26.0" prefWidth="230.0" />
+      <TextField layoutX="356.0" layoutY="279.0" prefHeight="26.0" prefWidth="58.0" />
+      <TextField layoutX="440.0" layoutY="279.0" prefHeight="26.0" prefWidth="58.0" />
+      <Label layoutX="104.0" layoutY="261.0" text="Kelurahan" />
+      <Label layoutX="422.0" layoutY="278.0" text="/">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="379.0" layoutY="261.0" text="Rt" />
+      <Label layoutX="453.0" layoutY="261.0" text="Rw" />
    </children>
 </AnchorPane>

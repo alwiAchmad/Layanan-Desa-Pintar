@@ -4,26 +4,34 @@
 <?import javafx.scene.control.ScrollBar?>
 <?import javafx.scene.control.TableColumn?>
 <?import javafx.scene.control.TableView?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.layout.Pane?>
 <?import javafx.scene.text.Font?>
 
-
-<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/18">
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1">
    <children>
-      <TableView layoutX="6.0" layoutY="125.0" prefHeight="273.0" prefWidth="570.0">
+      <TableView layoutY="106.0" prefHeight="293.0" prefWidth="592.0">
         <columns>
           <TableColumn prefWidth="224.79998779296875" text="Nama Kegiatan" />
           <TableColumn minWidth="0.0" prefWidth="244.0" text="Hari / Tanggal" />
             <TableColumn prefWidth="103.199951171875" text="Waktu" />
         </columns>
       </TableView>
-      <ScrollBar layoutX="579.0" layoutY="124.0" orientation="VERTICAL" prefHeight="274.0" prefWidth="14.0" />
-      <Pane layoutY="1.0" prefHeight="121.0" prefWidth="604.0" style="-fx-background-color: yellow;" />
-      <Label layoutX="14.0" layoutY="41.0" text="Daftar Kegiatan Desa X">
-         <font>
-            <Font name="System Bold" size="36.0" />
-         </font>
-      </Label>
+      <ScrollBar layoutX="590.0" layoutY="104.0" orientation="VERTICAL" prefHeight="294.0" prefWidth="14.0" />
+      <Pane layoutY="-19.0" prefHeight="110.0" prefWidth="604.0" style="-fx-background-color: #73f582; -fx-background-radius: 20;">
+         <children>
+            <Label layoutX="99.0" layoutY="45.0" text="Daftar Kegiatan Desa Sukamaju">
+               <font>
+                  <Font name="SansSerif Bold" size="27.0" />
+               </font>
+            </Label>
+            <ImageView fitHeight="26.0" fitWidth="26.0" layoutX="14.0" layoutY="29.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../../expo/image/Back%20Icon.png" />
+               </image>
+            </ImageView>
+         </children></Pane>
    </children>
 </AnchorPane>

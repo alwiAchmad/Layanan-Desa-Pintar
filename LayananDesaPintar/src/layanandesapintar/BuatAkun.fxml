@@ -4,21 +4,34 @@
 <?import javafx.scene.control.Label?>
 <?import javafx.scene.control.PasswordField?>
 <?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
 
-
-<AnchorPane id="AnchorPane" prefHeight="449.0" prefWidth="710.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/18">
+<AnchorPane id="AnchorPane" prefHeight="467.0" prefWidth="710.0" style="-fx-background-color: #73f582;" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1">
    <children>
-      <TextField layoutX="160.0" layoutY="78.0" prefHeight="26.0" prefWidth="224.0" />
-      <Label layoutX="163.0" layoutY="52.0" text="Nama" />
-      <TextField layoutX="160.0" layoutY="141.0" prefHeight="26.0" prefWidth="224.0" />
-      <Label layoutX="160.0" layoutY="115.0" text="Email" />
-      <TextField layoutX="160.0" layoutY="200.0" prefHeight="26.0" prefWidth="224.0" />
-      <Label layoutX="169.0" layoutY="173.0" text="NIK" />
-      <PasswordField layoutX="160.0" layoutY="266.0" prefHeight="26.0" prefWidth="224.0" />
-      <Label layoutX="160.0" layoutY="240.0" text="Kata sandi" />
-      <PasswordField layoutX="160.0" layoutY="331.0" prefHeight="26.0" prefWidth="224.0" />
-      <Label layoutX="160.0" layoutY="305.0" text="Ulangi kata sandi" />
-      <Button layoutX="319.0" layoutY="377.0" mnemonicParsing="false" text="Buat Akun" />
+      <Pane layoutX="225.0" layoutY="17.0" prefHeight="436.0" prefWidth="254.0" style="-fx-background-color: white; -fx-background-radius: 20;">
+         <children>
+            <TextField layoutX="17.0" layoutY="245.0" prefHeight="26.0" prefWidth="224.0" style="-fx-border-color: black; -fx-background-radius: 8; -fx-border-radius: 8;" />
+            <Label layoutX="23.0" layoutY="230.0" text="NIK" />
+            <PasswordField layoutX="17.0" layoutY="297.0" prefHeight="26.0" prefWidth="224.0" style="-fx-border-color: black; -fx-background-radius: 8; -fx-border-radius: 8;" />
+            <Label layoutX="20.0" layoutY="280.0" text="Kata sandi" />
+            <PasswordField layoutX="15.0" layoutY="349.0" prefHeight="26.0" prefWidth="224.0" style="-fx-border-color: black; -fx-background-radius: 8; -fx-border-radius: 8;" />
+            <Label layoutX="16.0" layoutY="331.0" text="Ulangi kata sandi" />
+            <Button layoutX="175.0" layoutY="393.0" mnemonicParsing="false" style="-fx-background-radius: 9;" text="Buat Akun" />
+            <Button layoutX="9.0" layoutY="393.0" mnemonicParsing="false" style="-fx-background-radius: 9;" text="Masuk" />
+            <TextField layoutX="17.0" layoutY="200.0" prefHeight="26.0" prefWidth="224.0" style="-fx-border-color: black; -fx-background-radius: 8; -fx-border-radius: 8;" />
+            <Label layoutX="19.0" layoutY="131.0" text="Email" />
+            <TextField layoutX="17.0" layoutY="148.0" prefHeight="26.0" prefWidth="224.0" style="-fx-border-color: black; -fx-background-radius: 8; -fx-border-radius: 8;" />
+            <Label layoutX="19.0" layoutY="183.0" text="Telepon" />
+         </children></Pane>
+      <TextField layoutX="240.0" layoutY="116.0" prefHeight="26.0" prefWidth="224.0" style="-fx-border-color: black; -fx-border-radius: 8; -fx-background-radius: 8;" />
+      <Label layoutX="243.0" layoutY="90.0" text="Nama" />
+      <ImageView fitHeight="106.0" fitWidth="180.0" layoutX="266.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Gambar/logo%20final.png" />
+         </image>
+      </ImageView>
    </children>
 </AnchorPane>

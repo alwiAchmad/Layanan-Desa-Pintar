@@ -1,26 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <?import javafx.scene.control.Button?>
+<?import javafx.scene.control.DatePicker?>
 <?import javafx.scene.control.Label?>
 <?import javafx.scene.control.PasswordField?>
 <?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.AnchorPane?>
-<?import javafx.scene.layout.Pane?>
 
-<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1">
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="571.0" style="-fx-background-color: #73f582;" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1">
    <children>
-      <Pane layoutX="247.0" layoutY="57.0" prefHeight="99.0" prefWidth="106.0" style="-fx-background-color: black;">
-         <children>
-            <Label layoutX="34.0" layoutY="41.0" text="Image" textFill="WHITE" />
-         </children>
-      </Pane>
-      <TextField layoutX="224.0" layoutY="194.0" style="-fx-background-color: grey;" />
-      <TextField layoutX="224.0" layoutY="240.0" style="-fx-background-color: grey;" />
-      <Label layoutX="224.0" layoutY="175.0" text="Nama" textFill="WHITE" />
-      <Label layoutX="224.0" layoutY="220.0" text="Tempat, Tanggal lahir" textFill="WHITE" />
-      <Label layoutX="224.0" layoutY="270.0" text="Kata Sandi" textFill="WHITE" />
-      <PasswordField layoutX="224.0" layoutY="288.0" style="-fx-background-color: grey;" />
-      <Button layoutX="320.0" layoutY="332.0" mnemonicParsing="false" text="Ubah kata sandi" />
-      <Button layoutX="22.0" layoutY="347.0" mnemonicParsing="false" text="Kembali" />
+      <TextField layoutX="222.0" layoutY="195.0" />
+      <Label layoutX="222.0" layoutY="176.0" text="Nama" />
+      <Label layoutX="222.0" layoutY="223.0" text="Tempat, Tanggal lahir" textFill="WHITE" />
+      <Label layoutX="222.0" layoutY="271.0" text="Kata Sandi" textFill="WHITE" />
+      <PasswordField layoutX="222.0" layoutY="289.0" />
+      <Button layoutX="318.0" layoutY="333.0" mnemonicParsing="false" prefHeight="32.0" prefWidth="106.0" style="-fx-background-radius: 10;" text="Ubah kata sandi" />
+      <DatePicker layoutX="221.0" layoutY="241.0" prefHeight="26.0" prefWidth="150.0" />
+      <ImageView fitHeight="26.0" fitWidth="26.0" layoutX="14.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../../expo/image/Button%20Home.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="105.0" fitWidth="115.0" layoutX="244.0" layoutY="59.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../../expo/image/Free%20Icon%20_%20Profile%20user.png" />
+         </image>
+      </ImageView>
    </children>
 </AnchorPane>

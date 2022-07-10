@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane id="AnchorPane" prefHeight="374.0" prefWidth="602.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/18">
+   <children>
+      <Label layoutX="93.0" layoutY="183.0" text="Kelurahan :" />
+      <TextField layoutX="157.0" layoutY="180.0" />
+      <ChoiceBox layoutX="155.0" layoutY="282.0" prefWidth="150.0" />
+      <DatePicker layoutX="156.0" layoutY="230.0" prefHeight="26.0" prefWidth="150.0" />
+      <Button layoutX="391.0" layoutY="256.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="90.0" style="-fx-background-radius: 10;" text="Submit" />
+      <Pane layoutY="-39.0" prefHeight="141.0" prefWidth="602.0" style="-fx-background-color: #73f582; -fx-background-radius: 20;">
+         <children>
+            <ImageView fitHeight="26.0" fitWidth="26.0" layoutX="8.0" layoutY="45.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../../expo/image/Back%20Icon.png" />
+               </image>
+            </ImageView>
+            <Label layoutX="154.0" layoutY="71.0" text="Buat Jadwal Posyandu">
+               <font>
+                  <Font name="SansSerif Bold" size="27.0" />
+               </font>
+            </Label>
+         </children>
+      </Pane>
+      <TextField layoutX="361.0" layoutY="179.0" prefHeight="26.0" prefWidth="54.0" />
+      <TextField layoutX="451.0" layoutY="179.0" prefHeight="26.0" prefWidth="54.0" />
+      <Label layoutX="340.0" layoutY="184.0" text="Rt :" />
+      <Label layoutX="425.0" layoutY="183.0" text="Rw :" />
+      <Label layoutX="78.0" layoutY="234.0" text="Hari/Tanggal :" />
+      <Label layoutX="104.0" layoutY="286.0" text="Tempat :" />
+   </children>
+</AnchorPane>
